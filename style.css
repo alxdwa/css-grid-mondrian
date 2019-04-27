@@ -19,8 +19,33 @@
   grid-row: span 4;
 }
 
+.box:nth-child(10) {
+  grid-column: span 2;
+}
+
+.box:nth-child(14) {
+  grid-row: span 3;
+}
+
+.box:nth-child(24) {
+  grid-row: span 2;
+}
+
+.box:nth-child(27) {
+  grid-row: span 2;
+  grid-column: span 2;
+}
+
+
+.box:nth-child(29) {
+  grid-row: span 2;
+}
+
 .border {
   background: #040100;
+  width: 70%;
+  margin: auto;
+  margin-top: 10vh;
 }
 
 .box {
